@@ -1,10 +1,17 @@
 .title{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
     color: #0d0d0d;
+    text-transform: uppercase;
+    &_left{
+        color: #fff;
+        text-align: left;
+        font-size: 36px;
+        line-height: 45px;
+    }
 }

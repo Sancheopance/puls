@@ -21,7 +21,9 @@
         &__wrapper{
         align-items: center;
         }
-       
+        &__icons{
+            padding-right: 0;
+        }
         &__header{
             font-size: 38px;
         }
@@ -31,6 +33,8 @@
         &__icon{
             font-size: 13px;
         }
+        
+
     } 
     .advantages{
         &__wrapper{
@@ -72,11 +76,7 @@
             font-size: 18px;
         }
     
-    .promo{
-        &__icons{
-            padding: 0;
-        }
-    }
+
     .no-header_officail{
         display: none;
     }
@@ -99,6 +99,7 @@
         
     }
     .promo{
+        background: url("../img/bg/bg_mini.jpg") center center/cover no-repeat;
         &__header{
             font-size: 25px;
         }
