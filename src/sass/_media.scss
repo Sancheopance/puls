@@ -96,9 +96,26 @@
           }
           &__inner{
             width: 100%;
+            }
+    }
+    .review{
+        &__item{
+            margin: 0 auto;
+            width: 90%;
         }
+        hr{
+            margin-right:  auto;
+            margin-left: auto;
+            width: 90%;
         }
-    
+    }
+    .review{   
+        &__img{
+            width: 155px;
+            height: 155px;
+            margin-right: 25px;
+        }
+    }
 }
 
 @media screen and(max-width: 767px){
@@ -177,6 +194,13 @@
     .no-header_officail{
         display: none;
     }
+    .review{   
+        &__img{
+            width: 125px;
+            height: 125px;
+            margin-right: 20px;
+        }
+    }
 }
     
 @media (max-width: 575px){
@@ -250,7 +274,13 @@
             
         }
     }    
-    
-
+    .review{   
+        &__img{
+            width: 69px;
+            height: 69px;
+            margin-right: 15px;
+        }
+    }
+ 
 }
    
