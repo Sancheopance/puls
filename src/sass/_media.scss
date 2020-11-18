@@ -201,7 +201,11 @@
     .no-header_officail{
         display: none;
     }
+
     .review{   
+        &__item {
+            padding: 0;
+        }
         &__img{
             width: 125px;
             height: 125px;
@@ -236,7 +240,7 @@
         .button{
             width: 122px;
             height: 28px;
-            font-size: 11px;
+            font-size: 10px;
         }
         
     }
