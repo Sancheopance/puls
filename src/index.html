@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/slick.css">
+   
+
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"> -->
 
     <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
 
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
 
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Document</title>
+    <title>Run smart</title>
 </head>
 <body>
    <section id="up" class="promo">
@@ -67,7 +65,7 @@
                     <div class="advantages__descr">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="advantages__item">
-                    <img src="img/icons/reasons/heart.png" class="advantages__icon" alt="">
+                    <img src="img/icons/reasons/heart.png" class="advantages__icon advantages__icon_animated" alt="">
                     <div class="advantages__subtitle">Заботимся о здоровье</div>
                     <div class="advantages__descr">Мы работаем для того, 
                         чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким! </div>
@@ -100,7 +98,7 @@
         </div>
     </section>
     <!-- карусель -->
-     <section class="carousel"> 
+     <div class="carousel"> 
         <div class="container">
             <div class="carousel__inner owl-carousel">
                 <div>
@@ -116,7 +114,7 @@
             <!-- <button type="button" class="prev"><img src="img/slider/left.png" ></button>
             <button type="button" class="next"><img src="img/slider/right.png" ></button>  -->
          </div>  
-    </section> 
+    </div> 
 
     <!-- КАТАЛОГ ЕБАНЫЙ -->
 
@@ -452,7 +450,7 @@
     <section class="review">
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
-            <div class="review__item">
+            <div class="review__item  animate__fadeInUp animate__animated wow " data-wow-duration="1s" data-wow-delay="1s" >
                 <img src="img/client/1.png" alt="" class="review__img">
                 <div class="review__content">
                     <div class="review__title">Ирина Иванченко </div>
@@ -465,7 +463,7 @@
                 </div>
             </div>
             <hr>
-            <div class="review__item">
+            <div class="review__item animate__fadeInUp animate__animated wow" data-wow-duration="1s" data-wow-delay="1s">
                 <img src="img/client/2.png" alt="" class="review__img">
                 <div class="review__content">
                     <div class="review__title">Иван Сёмочкин</div>
@@ -479,7 +477,7 @@
                 </div>
             </div>
             <hr>
-            <div class="review__item">
+            <div class="review__item animate__fadeInUp animate__animated wow" data-wow-duration="1s" data-wow-delay="1s">
                 <img src="img/client/3.png" alt="" class="review__img">
                 <div class="review__content">
                     <div class="review__title">Юлия Дашкина</div>
@@ -524,7 +522,7 @@
     </footer>
 
     <div class="overlay">
-        <div class="modal"id="consultation">
+        <div class="moda l"id="consultation">
             <div class="modal__close">&times;</div>
             <div class="modal__subtitle">Просто заполните форму заявки</div>
             <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
@@ -535,7 +533,7 @@
                 <button class="button button_submit">заказать консультацию</button>
             </form>
         </div>
-        <div class="modal"id="order">
+        <div class="modal "id="order">
             <div class="modal__close">&times;</div>
             <div class="modal__subtitle">Ваш заказ: </div>
             <div class="modal__descr">Пульсометр Polar FT1</div>
@@ -546,7 +544,7 @@
                 <button class="button button_submit">купить</button>
             </form>
         </div>
-        <div class="modal modal_mini"id="thanks">
+        <div class="modal modal_mini "id="thanks">
             <div class="modal__close">&times;</div>
             <div class="modal__subtitle">Спасибо за вашу заявку! </div>
             <div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
@@ -558,10 +556,11 @@
     </a>
     
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/slick.min.js"></script> 
+    <script src="js/wow.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
     
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>  -->
